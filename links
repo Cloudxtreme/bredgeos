@@ -1,0 +1,12 @@
+http://www.ubnt.com/downloads/ER-e100.v1.1.0.4543695.tar
+http://dl.ubnt.com/firmwares/edgemax/v1.1.0/GPL.ER-e100.v1.1.0.4543695.tbz2
+
+$ git clone http://git.vyatta.com/build-iso.git
+
+Next, check out an appropriate branch.
+
+$ cd build-iso
+build-iso$ git branch --track <branch> origin/<branch>
+build-iso$ git checkout <branch>
+
+Where "<branch>" is the appropriate branch name (e.g. "napa" for stable, "oxnard" for current development). 
